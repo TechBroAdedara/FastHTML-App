@@ -85,7 +85,7 @@ def get():
                                 bg-purple-500 
                                 text-white
                                 hover:bg-white
-                                hover: text-purple-500
+                                hover:text-purple-500
                                 hover:border-purple-500
                                 hover: border-2
                                 """,
@@ -100,7 +100,7 @@ def get():
             Div(
                 H2(
                     "Tasks",
-                    cls="text-xl font-bold text-purple-400 my-5 underline underline-offset-4",
+                    cls="text-xl font-bold text-purple-400 my-5",
                 ),
                 Div(id="activity-list-container"),
                 cls="list-container",
