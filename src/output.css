@@ -734,6 +734,14 @@ video {
   color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
+.hover\:border-2:hover {
+  border-width: 2px;
+}
+
+.hover\:border:hover {
+  border-width: 1px;
+}
+
 .hover\:border-none:hover {
   border-style: none;
 }
@@ -741,6 +749,11 @@ video {
 .hover\:border-purple-500:hover {
   --tw-border-opacity: 1;
   border-color: rgb(168 85 247 / var(--tw-border-opacity));
+}
+
+.hover\:border-red-500:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 
 .hover\:bg-red-500:hover {

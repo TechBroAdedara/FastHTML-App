@@ -44,7 +44,7 @@ def test(activity: str):
             #     hx_swap="outerHTML",
             #     cls="mx-3 text-red-500 hover:text-red-300"
             # ),
-            cls="hover:text-white text-purple-500 font-semibold hover:border-none hover:shadow-none transition duration-300 my-5 border-2 rounded shadow-md hover:bg-red-500 p-4",
+            cls="hover:text-white text-purple-500 font-semibold hover:border-2 hover:border-red-500 hover:shadow-none transition duration-300 my-5 border-2 rounded shadow-md hover:bg-red-500 p-4",
             id=f"{count}",
             hx_delete="/",
             hx_swap="outerHTML",
@@ -78,7 +78,7 @@ def get():
                             "Add",
                             cls="""
                                 transition
-                                duration-300
+                                duration-300 
                                 rounded-md
                                 w-24 h-8
                                 font-semibold
